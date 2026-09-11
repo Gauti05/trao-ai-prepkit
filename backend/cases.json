@@ -1,0 +1,20 @@
+[
+  {
+    "id": "case_1_normal",
+    "jd": "We are looking for a software engineer who knows React and Node.js. 3 years experience required.",
+    "company_url": "http://localhost:50396/",
+    "days": 3
+  },
+  {
+    "id": "case_2_no_careers",
+    "jd": "Looking for a backend engineer. Python and SQL.",
+    "company_url": "http://localhost:50396/no-careers",
+    "days": 3
+  },
+  {
+    "id": "case_3_deliberate_404",
+    "jd": " ",
+    "company_url": "http://localhost:50396/does-not-exist",
+    "days": 3
+  }
+]

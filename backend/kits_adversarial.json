@@ -1,0 +1,266 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-09-11T07:30:12.487Z",
+  "kits": [
+    {
+      "id": "case_crawler_injection",
+      "status": "ok",
+      "kit": {
+        "source": {
+          "company": "localhost",
+          "company_url": "http://localhost:60737/hacked-careers",
+          "role": "React Engineer",
+          "location": "Unknown",
+          "jd_chars": 38,
+          "researched_at": "2026-09-11T07:30:12.486Z",
+          "pages_used": [
+            "http://localhost:60737/hacked-careers"
+          ]
+        },
+        "company_brief": {
+          "summary": "No summary available.",
+          "what_they_do": "Extracted from crawled pages.",
+          "sources": [
+            "http://localhost:60737/hacked-careers"
+          ]
+        },
+        "role": {
+          "title": "React Engineer",
+          "seniority": "Unknown",
+          "responsibilities": [],
+          "requirements": [
+            {
+              "id": "r1",
+              "text": "Must be a standard React engineer",
+              "kind": "technical",
+              "priority": "must"
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q_1789111811478_vr95o00p",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "technical",
+            "prompt": "Explain the differences between class components and functional components in React, and how hooks have changed the way we write functional components.",
+            "answer_outline": "Class vs function syntax, lifecycle methods vs useEffect, state handling with this.state vs useState, binding this, hooks enabling side‑effects, cleaner code, no need for constructors",
+            "difficulty": 2
+          },
+          {
+            "id": "q_1789111811478_7jnrjuvl",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "technical",
+            "prompt": "When would you choose local component state (useState/useReducer) over a global state solution like Redux or Context API? Provide examples.",
+            "answer_outline": "Local state for UI‑only, isolated concerns, simple forms; global state for shared data across many components, complex business logic, caching, authentication; trade‑offs of boilerplate vs simplicity",
+            "difficulty": 2
+          },
+          {
+            "id": "q_1789111811478_tsa7skmd",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "technical",
+            "prompt": "What techniques can you use to improve performance in a large React application? Discuss memoization, lazy loading, and reconciliation optimizations.",
+            "answer_outline": "React.memo, useMemo, useCallback to avoid re‑renders; code‑splitting with React.lazy and Suspense; key usage, avoiding anonymous functions in props; windowing libraries; profiling with DevTools",
+            "difficulty": 3
+          }
+        ],
+        "flashcards": [
+          {
+            "id": "f_1789111811478_mytc8dzt",
+            "front": "React Hook",
+            "back": "A function that lets you use React state and lifecycle features inside functional components (e.g., useState, useEffect, useContext).",
+            "requirement_ids": [
+              "r1"
+            ],
+            "confidence": "uncovered"
+          },
+          {
+            "id": "f_1789111811478_sjg8st5s",
+            "front": "JSX",
+            "back": "A syntax extension for JavaScript that looks like HTML, used to describe UI structure in React components; compiled to React.createElement calls.",
+            "requirement_ids": [
+              "r1"
+            ],
+            "confidence": "uncovered"
+          },
+          {
+            "id": "f_1789111811478_l7tupklq",
+            "front": "Virtual DOM",
+            "back": "An in‑memory representation of the real DOM that React uses to efficiently compute changes and batch updates, minimizing direct DOM manipulation.",
+            "requirement_ids": [
+              "r1"
+            ],
+            "confidence": "uncovered"
+          }
+        ],
+        "schedule": {
+          "days_available": 3,
+          "days": [
+            {
+              "day": 1,
+              "focus": "Technical Focus",
+              "question_ids": [
+                "q_1789111811478_tsa7skmd"
+              ],
+              "minutes": 45
+            },
+            {
+              "day": 2,
+              "focus": "Technical Focus",
+              "question_ids": [
+                "q_1789111811478_vr95o00p"
+              ],
+              "minutes": 30
+            },
+            {
+              "day": 3,
+              "focus": "Technical Focus",
+              "question_ids": [
+                "q_1789111811478_7jnrjuvl"
+              ],
+              "minutes": 30
+            }
+          ]
+        },
+        "coverage": {
+          "uncovered_requirement_ids": [],
+          "passes": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "id": "case_jd_injection",
+      "status": "ok",
+      "kit": {
+        "source": {
+          "company": "localhost",
+          "company_url": "http://localhost:60737/",
+          "role": "Node.js backend engineer",
+          "location": "Unknown",
+          "jd_chars": 108,
+          "researched_at": "2026-09-11T07:30:12.457Z",
+          "pages_used": []
+        },
+        "company_brief": {
+          "summary": "No summary available.",
+          "what_they_do": "Extracted from crawled pages.",
+          "sources": []
+        },
+        "role": {
+          "title": "Node.js backend engineer",
+          "seniority": "Unknown",
+          "responsibilities": [],
+          "requirements": [
+            {
+              "id": "r1",
+              "text": "Node.js backend engineer",
+              "kind": "technical",
+              "priority": "must"
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q_1789111811454_cnv7anwe",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "technical",
+            "prompt": "Explain how the Node.js event loop works and why it is important for backend development.",
+            "answer_outline": "Describe the phases of the event loop, how the call stack and callback queue interact, non‑blocking I/O, and the impact on concurrency.",
+            "difficulty": 2
+          },
+          {
+            "id": "q_1789111811454_vtc5212p",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "technical",
+            "prompt": "What strategies would you use to scale a Node.js API service to handle high traffic?",
+            "answer_outline": "Discuss clustering (Node's cluster module or PM2), load balancing, stateless service design, horizontal scaling, connection pooling, and monitoring.",
+            "difficulty": 3
+          },
+          {
+            "id": "q_1789111811454_3wl9flnr",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "technical",
+            "prompt": "Identify common security vulnerabilities in a Node.js backend and how to mitigate them.",
+            "answer_outline": "Mention injection attacks, XSS/CSRF, insecure dependencies, improper error handling; mitigation with input validation, helmet, rate limiting, dependency scanning, HTTPS, and proper error responses.",
+            "difficulty": 2
+          }
+        ],
+        "flashcards": [
+          {
+            "id": "f_1789111811454_w0vv84bj",
+            "front": "Event Loop",
+            "back": "The core mechanism in Node.js that processes asynchronous callbacks in phases, enabling non‑blocking I/O on a single thread.",
+            "requirement_ids": [
+              "r1"
+            ],
+            "confidence": "uncovered"
+          },
+          {
+            "id": "f_1789111811454_svvg1y42",
+            "front": "Cluster Module",
+            "back": "A Node.js feature that allows spawning multiple worker processes to utilize multi‑core CPUs, improving concurrency and reliability.",
+            "requirement_ids": [
+              "r1"
+            ],
+            "confidence": "uncovered"
+          },
+          {
+            "id": "f_1789111811454_mcq0f8r6",
+            "front": "Middleware",
+            "back": "Functions that sit in the request‑response pipeline, allowing preprocessing of requests (e.g., authentication, logging) before reaching route handlers.",
+            "requirement_ids": [
+              "r1"
+            ],
+            "confidence": "uncovered"
+          }
+        ],
+        "schedule": {
+          "days_available": 3,
+          "days": [
+            {
+              "day": 1,
+              "focus": "Technical Focus",
+              "question_ids": [
+                "q_1789111811454_vtc5212p"
+              ],
+              "minutes": 45
+            },
+            {
+              "day": 2,
+              "focus": "Technical Focus",
+              "question_ids": [
+                "q_1789111811454_cnv7anwe"
+              ],
+              "minutes": 30
+            },
+            {
+              "day": 3,
+              "focus": "Technical Focus",
+              "question_ids": [
+                "q_1789111811454_3wl9flnr"
+              ],
+              "minutes": 30
+            }
+          ]
+        },
+        "coverage": {
+          "uncovered_requirement_ids": [],
+          "passes": 1
+        }
+      },
+      "error": null
+    }
+  ]
+}

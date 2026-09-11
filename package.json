@@ -1,0 +1,18 @@
+{
+  "name": "ai-interview-prep-kit",
+  "version": "1.0.0",
+  "description": "AI Interview Prep Kit Root",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "npm run build:backend && npm run build:frontend",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "test": "cd backend && npm test",
+    "evaluate": "node -e \"console.log('not implemented')\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}

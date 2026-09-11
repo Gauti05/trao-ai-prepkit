@@ -1,0 +1,269 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-09-11T07:23:01.425Z",
+  "kits": [
+    {
+      "id": "case_1_normal",
+      "status": "ok",
+      "kit": {
+        "source": {
+          "company": "localhost",
+          "company_url": "http://localhost:50396/",
+          "role": "Software Engineer",
+          "location": "Unknown",
+          "jd_chars": 96,
+          "researched_at": "2026-09-11T07:23:01.424Z",
+          "pages_used": [
+            "http://localhost:50396/",
+            "http://localhost:50396/careers",
+            "http://localhost:50396/about"
+          ]
+        },
+        "company_brief": {
+          "summary": "Mock CompanyCareersAbout Us About usWe are a cool company.",
+          "what_they_do": "Extracted from crawled pages.",
+          "sources": [
+            "http://localhost:50396/",
+            "http://localhost:50396/careers",
+            "http://localhost:50396/about"
+          ]
+        },
+        "role": {
+          "title": "Software Engineer",
+          "seniority": "Unknown",
+          "responsibilities": [],
+          "requirements": [
+            {
+              "id": "r1",
+              "text": "Software engineer must know React",
+              "kind": "technical",
+              "priority": "must"
+            },
+            {
+              "id": "r2",
+              "text": "Software engineer must know Node.js",
+              "kind": "technical",
+              "priority": "must"
+            },
+            {
+              "id": "r3",
+              "text": "Software engineer must have 3 years of experience",
+              "kind": "technical",
+              "priority": "must"
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q_1789111380414_rcs384go",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "technical",
+            "prompt": "Explain the React component lifecycle and how you would manage side effects in functional components.",
+            "answer_outline": "Mention mounting, updating, unmounting phases; useEffect hook with dependencies; cleanup functions; class component equivalents (componentDidMount, etc.).",
+            "difficulty": 2
+          },
+          {
+            "id": "q_1789111380414_xux171wq",
+            "requirement_ids": [
+              "r2"
+            ],
+            "category": "technical",
+            "prompt": "Describe how you would build a RESTful API using Node.js and Express, including routing, error handling, and authentication strategies.",
+            "answer_outline": "Set up Express app, define routes, use middleware for parsing, error-handling middleware, JWT or session auth, proper status codes.",
+            "difficulty": 2
+          },
+          {
+            "id": "q_1789111380414_50oi4bl2",
+            "requirement_ids": [
+              "r3"
+            ],
+            "category": "technical",
+            "prompt": "How does having at least 3 years of software development experience influence your approach to task estimation and risk mitigation?",
+            "answer_outline": "Reference past project data, use story points or t-shirt sizing, consider unknowns, add buffers, leverage retrospectives, mentor junior members.",
+            "difficulty": 1
+          },
+          {
+            "id": "q_1789111380414_6jeyifhv",
+            "requirement_ids": [
+              "r1",
+              "r2"
+            ],
+            "category": "technical",
+            "prompt": "Outline the steps to integrate a React front‑end with a Node.js back‑end, focusing on data fetching, state management, and handling authentication tokens.",
+            "answer_outline": "Use fetch/axios or React Query, store tokens securely (httpOnly cookies or localStorage with precautions), pass auth headers, manage global state (Context/Redux), handle refresh tokens, error handling.",
+            "difficulty": 3
+          }
+        ],
+        "flashcards": [
+          {
+            "id": "f_1789111380414_qm7akih3",
+            "front": "React component lifecycle",
+            "back": "Phases: mounting, updating, unmounting. In functional components use useEffect with dependency array; cleanup functions run on unmount. Class equivalents: componentDidMount, componentDidUpdate, componentWillUnmount.",
+            "requirement_ids": [
+              "r1"
+            ],
+            "confidence": "uncovered"
+          },
+          {
+            "id": "f_1789111380414_3w5ed8mo",
+            "front": "Node.js event loop",
+            "back": "Single‑threaded loop that processes callbacks in phases (timers, I/O callbacks, idle, poll, check, close). Enables non‑blocking I/O and high concurrency.",
+            "requirement_ids": [
+              "r2"
+            ],
+            "confidence": "uncovered"
+          },
+          {
+            "id": "f_1789111380414_61fjja54",
+            "front": "Estimating software projects",
+            "back": "Techniques: story points, t‑shirt sizing, velocity tracking, use of historical data, risk buffers, breaking work into small tasks, continuous refinement.",
+            "requirement_ids": [
+              "r3"
+            ],
+            "confidence": "uncovered"
+          }
+        ],
+        "schedule": {
+          "days_available": 3,
+          "days": [
+            {
+              "day": 1,
+              "focus": "Technical Focus",
+              "question_ids": [
+                "q_1789111380414_6jeyifhv",
+                "q_1789111380414_50oi4bl2"
+              ],
+              "minutes": 60
+            },
+            {
+              "day": 2,
+              "focus": "Technical Focus",
+              "question_ids": [
+                "q_1789111380414_rcs384go"
+              ],
+              "minutes": 30
+            },
+            {
+              "day": 3,
+              "focus": "Technical Focus",
+              "question_ids": [
+                "q_1789111380414_xux171wq"
+              ],
+              "minutes": 30
+            }
+          ]
+        },
+        "coverage": {
+          "uncovered_requirement_ids": [],
+          "passes": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "id": "case_2_no_careers",
+      "status": "ok",
+      "kit": {
+        "source": {
+          "company": "localhost",
+          "company_url": "http://localhost:50396/no-careers",
+          "role": "Backend Engineer",
+          "location": "Unknown",
+          "jd_chars": 47,
+          "researched_at": "2026-09-11T07:23:00.471Z",
+          "pages_used": [
+            "http://localhost:50396/no-careers"
+          ]
+        },
+        "company_brief": {
+          "summary": "No summary available.",
+          "what_they_do": "Extracted from crawled pages.",
+          "sources": [
+            "http://localhost:50396/no-careers"
+          ]
+        },
+        "role": {
+          "title": "Backend Engineer",
+          "seniority": "Unknown",
+          "responsibilities": [],
+          "requirements": [
+            {
+              "id": "r1",
+              "text": "Backend engineer with Python and SQL skills",
+              "kind": "technical",
+              "priority": "must"
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q_1789111379455_2dzi7403",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "technical",
+            "prompt": "Design a RESTful API endpoint in Python that retrieves a paginated list of users from a PostgreSQL database, allowing filtering by registration date range. What libraries would you use, how would you structure the query, and what considerations are important for performance and security?",
+            "answer_outline": "- Choice of web framework (e.g., Flask, FastAPI) and DB driver/ORM (psycopg2, SQLAlchemy)\\n- Use of parameterized queries or ORM query filters to prevent SQL injection\\n- Pagination strategy (LIMIT/OFFSET or keyset pagination)\\n- Indexes on registration_date and any filter columns\\n- Handling of large result sets (streaming/async)\\n- Proper HTTP status codes and input validation",
+            "difficulty": 2
+          }
+        ],
+        "flashcards": [
+          {
+            "id": "f_1789111379455_ezzxuj2k",
+            "front": "Python DB-API (PEP 249)",
+            "back": "A standardized interface for connecting to relational databases in Python. It defines connection, cursor, execute, fetch methods, and supports parameterized queries to avoid SQL injection. Common implementations include psycopg2 for PostgreSQL and mysql‑connector‑python for MySQL.",
+            "requirement_ids": [
+              "r1"
+            ],
+            "confidence": "uncovered"
+          }
+        ],
+        "schedule": {
+          "days_available": 3,
+          "days": [
+            {
+              "day": 1,
+              "focus": "Technical Focus",
+              "question_ids": [
+                "q_1789111379455_2dzi7403"
+              ],
+              "minutes": 30
+            },
+            {
+              "day": 2,
+              "focus": "Review: Technical Focus",
+              "question_ids": [
+                "q_1789111379455_2dzi7403"
+              ],
+              "minutes": 30
+            },
+            {
+              "day": 3,
+              "focus": "Review: Technical Focus",
+              "question_ids": [
+                "q_1789111379455_2dzi7403"
+              ],
+              "minutes": 30
+            }
+          ]
+        },
+        "coverage": {
+          "uncovered_requirement_ids": [],
+          "passes": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "id": "case_3_deliberate_404",
+      "status": "failed",
+      "kit": null,
+      "error": {
+        "code": "EXTRACTION_FAILED",
+        "message": "No requirements extracted from JD"
+      }
+    }
+  ]
+}
