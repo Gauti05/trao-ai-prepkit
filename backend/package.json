@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon src/index.ts",
     "build": "tsc",
+    "start": "ts-node src/index.ts",
     "test": "jest",
     "evaluate": "ts-node src/evaluate.ts"
   },
