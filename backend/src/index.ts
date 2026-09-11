@@ -18,6 +18,9 @@ import kitsRoutes from './routes/kits';
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+// Trust the Railway proxy so Secure cookies can be set
+app.set('trust proxy', 1);
+
 app.use(express.json());
 
 app.use(cors({
